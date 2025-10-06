@@ -26,3 +26,12 @@ python csicl_inference_openrouter.py \
   --models google/gemini-2.5-flash x-ai/grok-4-fast \
   --per-category-cap 600
 ```
+
+```bash
+python csicl_inference_hf.py \
+  --out results \
+  --xicl-path prompts/xicl_setting.csv \
+  --models Qwen/Qwen3-32B deepseek-ai/DeepSeek-V3.1 \
+  --per-category-cap 600
+
+```
